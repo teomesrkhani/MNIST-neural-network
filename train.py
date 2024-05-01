@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 from tensorflow import keras
 import numpy as np
 
-# Implementing a neural network using Keras using
-# https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf
+# Implementing a neural network using Keras using the book: 
+# Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron
 
 # load the MNIST digits classification dataset
 (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
